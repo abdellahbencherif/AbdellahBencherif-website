@@ -102,3 +102,25 @@ body{background:#f6f8fc;color:#101d36;-webkit-font-smoothing:antialiased}
     width: 100%;
   }
 }
+
+/* Portfolio section: match the CV card's navy cover and readable text */
+#portfolio-document .document-panel {
+  background: #10244b !important;
+  border: 1px solid #10244b !important;
+  border-radius: 26px !important;
+}
+#portfolio-document .document-panel h2 {
+  color: #ffffff !important;
+}
+#portfolio-document .document-panel h2 em {
+  color: #8db7ff !important;
+}
+#portfolio-document .document-panel p {
+  color: #d2def1 !important;
+}
+#portfolio-document .document-panel .resume-actions a.btn {
+  box-shadow: 0 6px 18px rgba(0,0,0,.15);
+}
+#portfolio-document .section-kicker {
+  color: #2864ed !important;
+}
