@@ -82,3 +82,32 @@ body{background:#f6f8fc;color:#101d36;-webkit-font-smoothing:antialiased}
 .document-panel img{display:block;width:100%;height:auto}
 .document-panel .resume-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
 @media(max-width:720px){.document-panel{grid-template-columns:1fr}.document-panel>a{max-width:230px}.document-showcase{padding-top:40px;padding-bottom:60px}}
+
+/* CV section visibility fix */
+#cv h2,
+#resume h2 {
+  color: #ffffff;
+}
+
+#cv a,
+#resume a {
+  color: #ffffff;
+}
+
+#cv a[href$=".pdf"],
+#resume a[href$=".pdf"] {
+  display: inline-block;
+  padding: 14px 24px;
+  margin: 8px 8px 8px 0;
+  background: #2864f0;
+  color: #ffffff !important;
+  border-radius: 10px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+#cv a[href$=".pdf"]:hover,
+#resume a[href$=".pdf"]:hover {
+  background: #1749c2;
+}
